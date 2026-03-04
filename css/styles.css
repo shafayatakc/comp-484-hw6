@@ -1,26 +1,62 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+/* Color Palette 
+- Pastel Orange: #FFDAB9
+- Text Black: #FFFFFF
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    
+  background-color: #FFDAB9; 
+    font-family: 'Roboto', sans-serif; 
+    color: #0c0000; 
+    margin: 0;
+    line-height: 1.6;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+h1 {
+    font-size: 3.5rem; 
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
+h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+header img {
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%; 
+    border: 3px solid #FFDAB9; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 1px solid #090000; 
+    border-bottom: 1px solid #090000;
+}
 
 
 /* Education
 ------------------------------------*/
+.edu-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* Matching the Work Experience style */
+    border-top: 1px solid #090000;
+    border-bottom: 1px solid #090000;
+}
